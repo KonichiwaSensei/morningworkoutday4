@@ -46,3 +46,21 @@ nav > a{
 ul li:nth-child(odd){
     text-decoration: underline;
 }
+
+
+
+/* Extra challenge, animation */
+
+nav:after{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    transform: scaleX(0);
+}
+
+nav:hover{
+    transform: scale(1);
+    
+}
+
+
