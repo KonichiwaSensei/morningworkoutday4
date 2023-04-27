@@ -20,23 +20,33 @@ nav > a{
     text-decoration: none;    
 }
 
-.creators a:nth-child(1){
+.creators .link {
     font-family: Lato;
 }
-
-.creators a:nth-child(3){
-    font-family: Lato;
-}
-
-.creators a:nth-child(2){
-    font-family: PT Serif;
+.creators .link.font {
+    font-family: PT serif;
     font-weight: bold;
 }
 
-.creators a:nth-child(4){
+
+/* .creators a:nth-child(odd){
+    font-family: Lato;
+} */
+
+/* .creators a:nth-child(3){
+    font-family: Lato;
+} */
+
+/* .creators a:nth-child(even){
     font-family: PT Serif;
     font-weight: bold;
-}
+} */
+
+
+/* .creators a:nth-child(4){
+    font-family: PT Serif;
+    font-weight: bold;
+} */
 
 .cta h2{
     color: crimson;
@@ -49,7 +59,7 @@ ul li:nth-child(odd){
 
 
 
-/* Extra challenge, animation */
+/* Extra challenge, animation of nav links */
 
 nav:after{
     display: inline-block;
@@ -60,7 +70,6 @@ nav:after{
 
 nav:hover{
     transform: scale(1);
-    
 }
 
 
